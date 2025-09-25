@@ -12,14 +12,6 @@ terminationProtection: true
 cdkOptions:
   centralizeBuckets: true
   useManagementAccessRole: true
-snsTopics:
-  deploymentTargets:
-    organizationalUnits:
-      - Root
-  topics:
-    - name: Security
-      emailAddresses:
-        - <security-notifications>@example.com  <----- UPDATE EMAIL ADDRESS
 controlTower:
   enable: true
   landingZone:
